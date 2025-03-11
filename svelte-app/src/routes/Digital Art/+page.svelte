@@ -2,4 +2,6 @@
     <title>Digital Art</title>
 </svelte:head>
 
-<h1>Digital Art</h1>
+<div id="page-content">
+    <h1>Digital Art</h1>
+</div>

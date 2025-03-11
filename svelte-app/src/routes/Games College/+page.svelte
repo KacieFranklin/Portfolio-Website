@@ -2,4 +2,6 @@
     <title>Games College</title>
 </svelte:head>
 
-<h1>College</h1>
+<div id="page-content">
+    <h1>College</h1>
+</div>

@@ -2,4 +2,6 @@
     <title>About Me</title>
 </svelte:head>
 
-<h1>About Me</h1>
+<div id="page-content">
+    <h1>About Me</h1>
+</div>

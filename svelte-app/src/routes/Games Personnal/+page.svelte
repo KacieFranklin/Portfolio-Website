@@ -2,4 +2,6 @@
     <title>Games Personal</title>
 </svelte:head>
 
-<h1>Personal</h1>
+<div id="page-content">
+    <h1>Personal</h1>
+</div>
