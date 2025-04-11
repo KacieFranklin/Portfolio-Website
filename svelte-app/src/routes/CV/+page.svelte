@@ -2,4 +2,6 @@
     <title>CV</title>
 </svelte:head>
 
-<h1>CV</h1>
+<div id="page-content">
+    <h1>CV</h1>
+</div>
