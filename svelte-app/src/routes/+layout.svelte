@@ -3,6 +3,8 @@
     let { children } = $props();
 </script>
 
+<div id="background"></div>
+
 
 <header>
     <Navigation />

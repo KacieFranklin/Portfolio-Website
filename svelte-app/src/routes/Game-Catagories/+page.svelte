@@ -1,9 +1,9 @@
 <svelte:head>
-    <title>Digital Art</title>
+    <title>Game Catagories</title>
 </svelte:head>
 
 <div id="page-content">
-    <h1>Digital Art</h1>
+    <h1>Game Catagories</h1>
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

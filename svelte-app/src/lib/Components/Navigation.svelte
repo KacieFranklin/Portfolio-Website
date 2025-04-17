@@ -13,7 +13,7 @@
 
     <div class="hamburger-menu">
         <ul class:open={isOpen}>
-            <span><a href="/home">Home</a></span>
+            <span><a href="/">Home</a></span>
             <span><a href="/About-Me">About Me</a></span>
             <span><a href="/CV">CV</a></span>
             <span><a href="/Art-Catagories">Art Catagories</a></span>

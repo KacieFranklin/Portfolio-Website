@@ -1,9 +1,9 @@
 <svelte:head>
-    <title>Digital Art</title>
+    <title>Art Catagories</title>
 </svelte:head>
 
 <div id="page-content">
-    <h1>Digital Art</h1>
+    <h1>Art Catagories</h1>
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

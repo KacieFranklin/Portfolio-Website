@@ -25,23 +25,7 @@
     html {
         height:100vh;
     }
-    
-    nav {
-        overflow-x:scroll;
-        white-space:nowrap;
-        width:100%;
-        height:49px;
-        position:fixed;
-        padding:10px 20px 5px 20px;
-        text-align:left;
-        background-image: linear-gradient(var(--semi-transparent-div) 80%, var(--primary-color) 20%);
-        z-index:6;
-    }
-    
-    nav span:not(:last-child) {
-        padding: 5px 5px 5px 0px;
-        border-right: solid black 1px;
-    }
+   
     
     body {
         font-family: var(--font-family);
@@ -70,35 +54,7 @@
         background-color: #637074;
         height: 100vh;
         width: 100%;
-    }
-    
-    @supports (scrollbar-color: auto) {
-        nav, div#page-content {
-            scrollbar-color:var(--special-color), #0000;
-        }
-    }
-    
-    @supports selector(::-webkit-scrollbar) {
-        nav::-webkit-scrollbar{
-            height:10px;
-            width:10px;
-            background: #0000;
-        }
-        div::-webkit-scrollbar {
-            width:10px;
-            background-image: linear-gradient(#0000, var(--semi-transparent-div), var(--primary-color), var(--semi-transparent-div), #0000);
-        }
-    
-        div::-webkit-scrollbar-button:start {
-            height:50px;
-        }
-        nav::-webkit-scrollbar-thumb, div::-webkit-scrollbar-thumb {
-            border-radius: 5px;
-            background-image: linear-gradient(#0000, #0000 10%, var(--special-color-semi-trans) 10%, var(--special-color-semi-trans) 90%, #0000 90%, #0000);
-        }
-        nav::-webkit-scrollbar-thumb:hover, div::-webkit-scrollbar-thumb:hover {
-            background-image: linear-gradient(#0000, #0000 10%, var(--special-color) 10%, var(--special-color) 90%, #0000 90%, #0000);
-        }
+        
     }
     
     h1, h2, h3, h4, h5, h6 {
@@ -124,44 +80,68 @@
         text-decoration: underline;
     }
     
-    .container{
-        width: 90%;
-        max-width: var(--max-width);
-        margin: 0 auto;
-        padding: var(--spacing-medium);
+    @supports (scrollbar-color: auto) {
+         div#page-content {
+            scrollbar-color:var(--special-color), #0000;
+        }
+    }
+    
+    @supports selector(::-webkit-scrollbar) {
+       
+        div::-webkit-scrollbar {
+            width:10px;
+            background-image: linear-gradient(#0000, var(--semi-transparent-div), var(--primary-color), var(--semi-transparent-div), #0000);
+        }
+    
+        div::-webkit-scrollbar-button:start {
+            height:50px;
+        }
+        nav::-webkit-scrollbar-thumb, div::-webkit-scrollbar-thumb {
+            border-radius: 5px;
+            background-image: linear-gradient(#0000, #0000 10%, var(--special-color-semi-trans) 10%, var(--special-color-semi-trans) 90%, #0000 90%, #0000);
+        }
+        nav::-webkit-scrollbar-thumb:hover, div::-webkit-scrollbar-thumb:hover {
+            background-image: linear-gradient(#0000, #0000 10%, var(--special-color) 10%, var(--special-color) 90%, #0000 90%, #0000);
+        }
     }
 
     nav {
         position: fixed;
+        right:10%;
         top:0px;
-        width:100%;
         min-width: min-content;
         height:max-content;
-        max-height: 40vh;
+        max-height: fit-content;
+        z-index:9;
+        
     }
     
     .burger {
-        display:block;
-        left:90%;
+        font-size: 4rem;
+        display: block;
+        color: #b8b8db;
+        background: none;
+        border: none;
     }
 
     .hamburger-menu ul {
         display:none;
         flex-direction: column;
         position: relative;
-        top: 70px;
-        left: 65%;
+        top:50%;
         text-align: center;
-        z-index:9;
-        width:30%;
+        width:20%;
         min-width: fit-content;
-        height: 80vh;
+        height: fit-content;
         max-height: fit-content;
         padding: 1rem 5px 1rem 5px;
         overflow-y: auto;
+      
+        
     }
 
     .hamburger-menu ul.open {
         display: flex;
-        background:var(--primary-color);
+        background:#bdd4e7;
+        border:solid, #100b07;
     }
