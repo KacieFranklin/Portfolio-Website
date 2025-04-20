@@ -5,7 +5,6 @@
 
 <div id="background"></div>
 
-
 <header>
     <Navigation />
 </header>
