@@ -9,7 +9,6 @@
 <Header rectangle="HeaderImg.png" title="AboutMe"></Header>
 
 <div id="page-content">
-    <h1>About Me</h1>
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

@@ -24,6 +24,7 @@
     
     html {
         height:20vh;
+        overflow: hidden;
     }
    
     
@@ -77,6 +78,11 @@
     a:hover{
         color: var(--special-light);
         text-decoration: underline;
+    }
+
+    .content-home {
+        color: #bdd4e7;
+        font-weight: 400;
     }
     
     @supports (scrollbar-color: auto) {
@@ -143,4 +149,20 @@
         display: flex;
         background:#bdd4e7;
         border:solid, #100b07;
+    }
+
+    .gallery {
+        display:flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .IconSelectors {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px;
+        justify-content: center;
+        margin-top: 5rem;
     }

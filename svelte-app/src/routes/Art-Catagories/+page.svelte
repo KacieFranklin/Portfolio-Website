@@ -3,17 +3,16 @@
 </svelte:head>
 
 <script>
+    import ArtCard from "$lib/Components/ArtCard.svelte";
     import Header from "$lib/Components/Header.svelte";
 </script>
 
-<Header rectangle="HeaderImg.png" title="ArtCatagories"></Header>
+<Header rectangle="HeaderImg.png" title="ArtCategories"></Header>
 
 <div id="page-content">
-    <h1>Art Catagories</h1>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <p>text</p>
+    <div class="IconSelectors">
+        <ArtCard photo="ArtSelectIconBlue.png" link="/Animations" />
+        <ArtCard photo="ArtSelectIconBlue.png" link="/Digital-Art" />
+    </div>
 </div>

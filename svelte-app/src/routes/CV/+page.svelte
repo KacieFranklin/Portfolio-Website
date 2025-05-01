@@ -9,7 +9,6 @@
 <Header rectangle="HeaderImg.png" title="CV"></Header>
 
 <div id="page-content">
-    <h1>CV</h1>
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

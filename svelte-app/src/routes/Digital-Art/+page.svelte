@@ -4,12 +4,30 @@
 
 <script>
     import Header from "$lib/Components/Header.svelte";
+    import Card from "$lib/Components/Card.svelte";
 </script>
 
 <Header rectangle="HeaderImg.png" title="DigitalArt"></Header>
 
 <div id="page-content">
-    <h1>Digital Art</h1>
+
+    <div class="gallery">
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+        <Card photo="Placeholder.png" />
+    </div>
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

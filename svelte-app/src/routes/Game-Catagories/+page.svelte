@@ -4,16 +4,15 @@
 
 <script>
     import Header from "$lib/Components/Header.svelte";
+    import GameCard from "$lib/Components/GameCard.svelte";
 </script>
 
-<Header rectangle="HeaderImg.png" title="GameCatagories"></Header>
+<Header rectangle="HeaderImg.png" title="GameCategories"></Header>
 
 <div id="page-content">
-    <h1>Game Catagories</h1>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <p>text</p>
+    <div class="IconSelectors">
+        <GameCard photo="GameSelectIconBlue.png" link="/Games-Personal" />
+        <GameCard photo="GameSelectIconBlue.png" link="/Games-College" />
+    </div>
 </div>
