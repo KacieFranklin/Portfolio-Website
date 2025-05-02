@@ -11,6 +11,40 @@
 <div id="page-content">
     <h1>Personal</h1>
 
+    <div class=screenshotMain>
+
+    </div>
+
+    <div class="headerBox">
+
+    </div>
+
+    <div class="pageText">
+
+    </div>
+
+    <div class="gifContent">
+
+    </div>
+
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class=screenshotMain>
+
+    </div>
+
+    <div class="headerBox">
+
+    </div>
+
+    <div class="pageText">
+
+    </div>
+
+    <div class="gifContent">
+
+    </div>
+
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

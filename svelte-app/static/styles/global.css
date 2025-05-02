@@ -84,6 +84,74 @@
         color: #bdd4e7;
         font-weight: 400;
     }
+
+    .screenshotMain {
+        position: absolute;
+        left: 5%;
+        border: 8px dashed #bdd4e7;
+    }
+
+    .headerBox {
+        color: #bdd4e7;
+        position: absolute;
+        right: 5%;
+        top:10%;
+        display: block;
+        border: 5px solid #bdd4e7;
+        background-color: #100b07;
+        padding: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        
+    }
+
+    .pageText {
+        color: #bdd4e7;
+        width: 40%;
+        position: absolute;
+        right:2%;
+        top:32%;
+    }
+
+    .gifContent {
+        position: absolute;
+        top: 90%;
+    }
+
+    .screenshotMainTwo {
+        position: absolute;
+        left: 5%;
+        top: 160vh;
+        border: 8px dashed #bdd4e7;
+    }
+
+    .headerBoxTwo {
+        color: #bdd4e7;
+        position: absolute;
+        right: 5%;
+        top: 160vh;
+        display: block;
+        border: 5px solid #bdd4e7;
+        background-color: #100b07;
+        padding: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .pageTextTwo {
+        color: #bdd4e7;
+        width: 40%;
+        position: absolute;
+        right:2%;
+        top:180vh;
+    }
+
+    .gifContentTwo {
+        position: absolute;
+        top: 260vh;
+        left:20%;
+        
+    }
     
     @supports (scrollbar-color: auto) {
          div#page-content {
