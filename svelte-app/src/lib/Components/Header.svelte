@@ -28,4 +28,12 @@
         top: 10%;
         color: black;
     }
+
+    @media (max-width: 576px) {
+        .headerImg{
+            width: 50%;
+            left: 1%;
+        }
+       
+    }
 </style>

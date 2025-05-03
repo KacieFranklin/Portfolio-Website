@@ -22,7 +22,7 @@
     }
 
     :global(.gallery > .card:hover) {
-        transform: scale(1.5);
+        transform: scale(3.0);
         z-index: 2;
     }
 
@@ -32,10 +32,10 @@
     }
     
     .card{
-        background:#21213c;
+        background: none;
         border-radius: 18px;
         overflow:hidden;
-        width:280px;
+        width:500px;
         text-align: center;
         transition: transform 0.3s ease;
     }
@@ -43,11 +43,11 @@
     .card > img{
         width:100%;
         height:auto;
-        border-radius: 8px 8px 0 0;
+        
     }
 
     .card:hover {
-        transform: translateY(-5px);
+        transform: translateY(-20px);
 
     }
 </style>

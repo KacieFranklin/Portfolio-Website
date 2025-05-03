@@ -12,26 +12,10 @@
 <div id="page-content">
 
     <div class="gallery">
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
+        <Card photo="kraft.gif" />
+        <Card photo="cainAnimation.gif" />
+        <Card photo="zeroAnimation.gif" />
+        <Card photo="hand.gif" />
     </div>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <p>text</p>
 </div>

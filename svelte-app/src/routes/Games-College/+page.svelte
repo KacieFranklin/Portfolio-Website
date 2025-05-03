@@ -11,7 +11,7 @@
 <div id="page-content">
 
     <div class="screenshotMain">
-        <img src="monochrome.png" alt="Game Screenshot Monochrome" height="400px" width="600px">
+        <img src="monochrome.png" alt="Game Screenshot Monochrome" width="470px" height="400px">
     </div>
 
     <div class="headerBox">
@@ -35,7 +35,7 @@
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <div class="screenshotMainTwo">
-        <img src="shortCircuit.png" alt="Game Screenshot Monochrome" height="400px" width="600px">
+        <img src="shortCircuit.png" alt="Game Screenshot Monochrome" height="400px" width="470px">
     </div>
 
     <div class="headerBoxTwo">
@@ -55,13 +55,7 @@
     <div class="gifContentTwo">
         <img src="RoboWalk.gif" alt="Detective Pixel Art Gif" height="400px" width="400px">
         <img src="bugwalk.gif" alt="Crawlling Body Pixel Art Gif" height="400px" width="400px">
+        <br><br><br><br><br><br><br><br><br>
     </div>
-
-   
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 </div>

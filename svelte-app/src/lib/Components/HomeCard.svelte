@@ -104,7 +104,26 @@
         z-index: 6;
     }
 
+    @media (max-width: 576px) {
+        .content-art{
+            left: 42%;
+            top:94%;
+        }
 
+        .content-games{
+            top:125vh;
+        }
+
+        .content-cv{
+            left:34%;
+            top:170vh;
+        }
+
+        .content-about{
+            left:5%;
+            top:215vh;
+        }
+    }
 
 
 

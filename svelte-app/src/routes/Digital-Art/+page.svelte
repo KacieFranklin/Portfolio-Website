@@ -12,26 +12,11 @@
 <div id="page-content">
 
     <div class="gallery">
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
-        <Card photo="Placeholder.png" />
+        <Card photo="reaper.png" />
+        <Card photo="cain.png" />
+        <Card photo="puppeteer.png" />
+        <Card photo="Zero2.png" />
+        <Card photo="mikkel.png" />
+        <Card photo="zero1.png" />
     </div>
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <p>text</p>
 </div>

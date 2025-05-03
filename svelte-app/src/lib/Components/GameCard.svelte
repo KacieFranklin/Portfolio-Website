@@ -78,4 +78,10 @@
         top:44%;
         z-index: 6;
     }
+
+    @media (max-width: 576px) {
+        .content-education{
+            top: 100vh;
+        }
+    }
 </style>
