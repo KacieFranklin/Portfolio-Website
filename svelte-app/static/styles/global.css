@@ -194,8 +194,9 @@
         top:140vh;
     }
 
-    .cvImg{
-        justify-content: center;
+    .cvImg{ 
+        max-width:100%;
+        max-height:100%;
     }
 
     .aboutImg{
@@ -251,9 +252,6 @@
         position: fixed;
         right:10%;
         top:0px;
-        min-width: min-content;
-        height:max-content;
-        max-height: fit-content;
         z-index:9;
         
     }
@@ -264,6 +262,7 @@
         color: #b8b8db;
         background: none;
         border: none;
+        z-index: 9;
     }
 
     .hamburger-menu ul {
@@ -312,6 +311,30 @@
             width:100%;
             left: 0%;
         }
+
+        nav {
+            position: fixed;
+            top:0%;
+            min-width: min-content;
+            height:max-content;
+            max-height: fit-content;
+            z-index:9;
+            
+        }
+
+        .burger{
+            position: absolute;
+            font-size: 4rem;
+            z-index: 9;
+            
+        }
+
+        .hamburger-menu ul.open {
+            display: flex;
+            top:10vh;
+            right:0vh;
+        }
+
 
         .headerBox{
             text-align: center;
@@ -378,14 +401,6 @@
             top:375vh;
             width:80%;
             left: 8%;
-        }
-
-        .cvImg{
-            position: absolute;
-            width: fit-content;
-            top:0%;
-            width:490px;
-             height:650px;
         }
 
         .aboutImg{

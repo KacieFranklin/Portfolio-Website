@@ -4,7 +4,7 @@
 </script>
 
 <div class="headerImg">
-    <img src={rectangle} alt="Header Rectangle Blue" width="400px" height="50px">
+    <img src={rectangle} alt="Header Rectangle Blue" width="335px" height="50px">
 
     <div class="content">
         <h1>{title}</h1>
@@ -16,7 +16,7 @@
         position: absolute;
         top:2%;
         left:10%;
-        z-index: 9;
+        z-index: 7;
         width: 20px;
         height:20px;
     }
@@ -31,8 +31,8 @@
 
     @media (max-width: 576px) {
         .headerImg{
-            width: 50%;
             left: 1%;
+            width:20px;
         }
        
     }

@@ -25,4 +25,5 @@
         <HomeCard photo="ArtSelectIconBlue.png" link="/CV"/>
         <HomeCard photo="ArtSelectIconBlue.png" link="/About-Me"/>
     </div>
+    <br><br><br><br>
 </div>

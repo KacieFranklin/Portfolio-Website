@@ -107,21 +107,22 @@
     @media (max-width: 576px) {
         .content-art{
             left: 42%;
-            top:94%;
+            top:74%;
         }
 
         .content-games{
-            top:125vh;
+            top:115vh;
+            left:38%;
         }
 
         .content-cv{
             left:34%;
-            top:170vh;
+            top:160vh;
         }
 
         .content-about{
             left:5%;
-            top:215vh;
+            top:205vh;
         }
     }
 

@@ -15,4 +15,5 @@
         <GameCard photo="GameSelectIconBlue.png" link="/Games-Personal" />
         <GameCard photo="GameSelectIconBlue.png" link="/Games-College" />
     </div>
+    <br><br><br><br>
 </div>

@@ -81,7 +81,13 @@
 
     @media (max-width: 576px) {
         .content-digitalArt {
-            top:100vh;
+            top:95vh;
+            left:30%;
+        }
+
+        .content-animations{
+            top:36vh
+            
         }
     }
 </style>

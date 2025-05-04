@@ -15,4 +15,5 @@
         <ArtCard photo="ArtSelectIconBlue.png" link="/Animations" />
         <ArtCard photo="ArtSelectIconBlue.png" link="/Digital-Art" />
     </div>
+    <br><br><br><br>
 </div>

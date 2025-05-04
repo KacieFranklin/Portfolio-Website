@@ -17,5 +17,5 @@
         <Card photo="zeroAnimation.gif" />
         <Card photo="hand.gif" />
     </div>
-
+    <br><br><br><br>
 </div>

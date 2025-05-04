@@ -11,8 +11,9 @@
 <div id="page-content">
 
     <div class="cvImg">
-        <img src="cv.jpeg" alt="Cv Resume">
+        <img src="cv.jpeg" alt="Cv Resume" width="490px">
     </div>
+    <br><br><br><br>
 
     
 </div>

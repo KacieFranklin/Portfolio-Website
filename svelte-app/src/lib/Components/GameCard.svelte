@@ -82,6 +82,12 @@
     @media (max-width: 576px) {
         .content-education{
             top: 100vh;
+            left: 30%;
+        }
+
+        .content-personal{
+            top: 40%;
+            left: 35%;
         }
     }
 </style>

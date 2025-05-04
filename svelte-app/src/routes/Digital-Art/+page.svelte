@@ -19,4 +19,5 @@
         <Card photo="mikkel.png" />
         <Card photo="zero1.png" />
     </div>
+    <br><br><br><br>
 </div>
