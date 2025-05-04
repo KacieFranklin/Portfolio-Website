@@ -5,7 +5,7 @@
 
 <div class="card">
     <a href={link}>
-    <img src={photo} alt="Placeholder">
+        <img src={photo} alt="Placeholder">
     </a>
 </div>
 <div class="content-personal">

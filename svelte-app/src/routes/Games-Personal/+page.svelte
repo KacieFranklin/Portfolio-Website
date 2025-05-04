@@ -3,15 +3,16 @@
 </svelte:head>
 
 <script>
+    import { base } from "$app/paths";
     import Header from "$lib/Components/Header.svelte";
 </script>
 
-<Header rectangle="HeaderImg.png" title="Personal"></Header>
+<Header rectangle="{base}/HeaderImg.png" title="Personal"></Header>
 
 <div id="page-content">
 
     <div class=screenshotMainPrsnl>
-        <img src="godIsDead.gif" alt="God Is Dead gif of battle between the sightless" height="600px" width="470px">
+        <img src="{base}/godIsDead.gif" alt="God Is Dead gif of battle between the sightless" height="600px" width="470px">
     </div>
 
     <div class="headerBox">
@@ -28,7 +29,7 @@
     </div>
 
     <div class=screenshotMainTwoPrsnl>
-        <img src="balloonBlaster.png" alt="Vertical mockup with balloons coming down the screen" height="800px" width="470px">
+        <img src="{base}/balloonBlaster.png" alt="Vertical mockup with balloons coming down the screen" height="800px" width="470px">
     </div>
 
     <div class="headerBoxTwoPrsnl">

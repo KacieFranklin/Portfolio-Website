@@ -3,11 +3,12 @@
 </svelte:head>
 
 <script>
+    import { base } from "$app/paths";
     import HomeCard from "$lib/Components/HomeCard.svelte";
     import Header from "$lib/Components/Header.svelte";
 </script>
 
-<Header rectangle="HeaderImg.png" title="Homepage"></Header>
+<Header rectangle="{base}/HeaderImg.png" title="Homepage"></Header>
 		
 <div id="page-content">
 
@@ -20,10 +21,10 @@
     </div>
 
     <div class="IconSelectors">
-        <HomeCard photo="ArtSelectIconBlue.png" link="/Art-Catagories" />
-        <HomeCard photo="ArtSelectIconBlue.png" link="/Game-Catagories" />
-        <HomeCard photo="ArtSelectIconBlue.png" link="/CV"/>
-        <HomeCard photo="ArtSelectIconBlue.png" link="/About-Me"/>
+        <HomeCard photo="{base}/ArtSelectIconBlue.png" link="{base}/Art-Catagories" />
+        <HomeCard photo="{base}/ArtSelectIconBlue.png" link="{base}/Game-Catagories" />
+        <HomeCard photo="{base}/ArtSelectIconBlue.png" link="{base}/CV"/>
+        <HomeCard photo="{base}/ArtSelectIconBlue.png" link="{base}/About-Me"/>
     </div>
     <br><br><br><br>
 </div>

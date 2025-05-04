@@ -3,15 +3,16 @@
 </svelte:head>
 
 <script>
+    import { base } from "$app/paths";
     import Header from "$lib/Components/Header.svelte";
 </script>
 
-<Header rectangle="HeaderImg.png" title="AboutMe"></Header>
+<Header rectangle="{base}/HeaderImg.png" title="AboutMe"></Header>
 
 <div id="page-content">
 
     <div class="aboutImg">
-         <img src="Kacie.jpeg" alt="Kacie" width="470px" >
+         <img src="{base}/Kacie.jpeg" alt="Kacie" width="470px" >
     </div>
    
     <div class="headerText">

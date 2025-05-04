@@ -3,19 +3,20 @@
 </svelte:head>
 
 <script>
+    import { base } from "$app/paths";
     import Card from "$lib/Components/Card.svelte";
     import Header from "$lib/Components/Header.svelte";
 </script>
 
-<Header rectangle="HeaderImg.png" title="Animations"></Header>
+<Header rectangle="{base}/HeaderImg.png" title="Animations"></Header>
 
 <div id="page-content">
 
     <div class="gallery">
-        <Card photo="kraft.gif" />
-        <Card photo="cainAnimation.gif" />
-        <Card photo="zeroAnimation.gif" />
-        <Card photo="hand.gif" />
+        <Card photo="{base}/kraft.gif" />
+        <Card photo="{base}/cainAnimation.gif" />
+        <Card photo="{base}/zeroAnimation.gif" />
+        <Card photo="{base}/hand.gif" />
     </div>
     <br><br><br><br>
 </div>

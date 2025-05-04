@@ -3,15 +3,16 @@
 </svelte:head>
 
 <script>
+    import { base } from "$app/paths";
     import Header from "$lib/Components/Header.svelte";
 </script>
 
-<Header rectangle="HeaderImg.png" title="Education"></Header>
+<Header rectangle="{base}/HeaderImg.png" title="Education"></Header>
 
 <div id="page-content">
 
     <div class="screenshotMain">
-        <img src="monochrome.png" alt="Game Screenshot Monochrome" width="470px" height="400px">
+        <img src="{base}/monochrome.png" alt="Game Screenshot Monochrome" width="470px" height="400px">
     </div>
 
     <div class="headerBox">
@@ -27,15 +28,15 @@
     </div>
 
     <div class="gifContent">
-        <img src="detective.gif" alt="Detective Pixel Art Gif" height="400px" width="400px">
-        <img src="crawler.gif" alt="Crawlling Body Pixel Art Gif" height="400px" width="400px">
-        <img src="blinker.gif" alt="Blinking Top Hat Creature Pixel Art Gif" height="400px" width="400px">
+        <img src="{base}/detective.gif" alt="Detective Pixel Art Gif" height="400px" width="400px">
+        <img src="{base}/crawler.gif" alt="Crawlling Body Pixel Art Gif" height="400px" width="400px">
+        <img src="{base}/blinker.gif" alt="Blinking Top Hat Creature Pixel Art Gif" height="400px" width="400px">
     </div>
    
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     <div class="screenshotMainTwo">
-        <img src="shortCircuit.png" alt="Game Screenshot Monochrome" height="400px" width="470px">
+        <img src="{base}/shortCircuit.png" alt="Game Screenshot Monochrome" height="400px" width="470px">
     </div>
 
     <div class="headerBoxTwo">
@@ -53,8 +54,8 @@
     </div>
 
     <div class="gifContentTwo">
-        <img src="RoboWalk.gif" alt="Detective Pixel Art Gif" height="400px" width="400px">
-        <img src="bugwalk.gif" alt="Crawlling Body Pixel Art Gif" height="400px" width="400px">
+        <img src="{base}/RoboWalk.gif" alt="Detective Pixel Art Gif" height="400px" width="400px">
+        <img src="{base}/bugwalk.gif" alt="Crawlling Body Pixel Art Gif" height="400px" width="400px">
         <br><br><br><br><br><br><br><br><br>
     </div>
 
