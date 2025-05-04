@@ -16,10 +16,10 @@
             <span><a href="/">Home</a></span>
             <span><a href="/About-Me">About Me</a></span>
             <span><a href="/CV">CV</a></span>
-            <span><a href="/Art-Catagories">Art Catagories</a></span>
+            <span><a href="/Art-Catagories">Art Categories</a></span>
             <span><a href="/Animations">Animations</a></span>
             <span><a href="/Digital-Art">Digital Art</a></span>
-            <span><a href="/Game-Catagories">Game Catagories</a></span>
+            <span><a href="/Game-Catagories">Game Categories</a></span>
             <span><a href="/Games-College">Games Education</a></span>
             <span><a href="/Games-Personal">Games Personal</a></span>
         </ul>
