@@ -10,3 +10,4 @@ I didn't have time to add it but I intend to add it in the future.
 ## Issues
 There's a few bugs that I tried to fix but couldn't understand what I had done wrong, for one I couldn't get images to rezise to the mobile version properly. 
 I had to set the image of my cv to fit the mobile size screen because whatever I tried didn't work to resize it with css.
+There is an issue with the live link, the components don't work as they should, you can still get to every page but running it locally is how it is supposed to be.
